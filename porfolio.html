@@ -273,10 +273,11 @@
     <!-- Footer -->
     <footer class="page-footer">
         <div class="page-footer-container container">
+            <!-- Contacts block -->
             <div class="page-footer-contacts-block">
                 <a class="page-footer-logo-link link" href="./index.html">
-                    <span class="page-footer-logo-link-beggin" lang="en">Web</span><span
-                        class="page-footer-logo-link-end" lang="en">Studio</span>
+                    <span class="page-footer-logo-link-beggin" lang="en">Web</span><span class="page-footer-logo-link-end"
+                        lang="en">Studio</span>
                 </a>
                 <address class="page-footer-contacts">
                     <ul class="page-footer-list list">
@@ -294,11 +295,9 @@
                     </ul>
                 </address>
             </div>
-
-            <div class="page-footer-social-medias">
-                <p class="page-footer-social-medias-title" lang="en">
-                    присоединяйтесь
-                </p>
+            <!-- Social medias block -->
+            <div class="page-footer-social-medias-block">
+                <p class="page-footer-social-medias-title" lang="en">присоединяйтесь</p>
                 <ul class="page-footer-social-medias-list list">
                     <li class="page-footer-social-medias-item">
                         <a class="page-footer-social-medias-link" href="">
@@ -307,7 +306,7 @@
                             </svg>
                         </a>
                     </li>
-
+    
                     <li class="page-footer-social-medias-item">
                         <a class="page-footer-social-medias-link" href="">
                             <svg class="page-footer-social-medias-icon" width="20" height="20">
@@ -315,7 +314,7 @@
                             </svg>
                         </a>
                     </li>
-
+    
                     <li class="page-footer-social-medias-item">
                         <a class="page-footer-social-medias-link" href="">
                             <svg class="page-footer-social-medias-icon" width="20" height="20">
@@ -323,7 +322,7 @@
                             </svg>
                         </a>
                     </li>
-
+    
                     <li class="page-footer-social-medias-item">
                         <a class="page-footer-social-medias-link" href="">
                             <svg class="page-footer-social-medias-icon" width="20" height="20">
@@ -333,6 +332,21 @@
                     </li>
                 </ul>
             </div>
+            <!-- Subscribe block -->
+            <form class="page-footer-subscribe-block">
+                <label class="page-footer-subscribe-field" for="subscribe-email">Подпишитесь на рассылку</label>
+                <div class="page-footer-subscribe-send">
+                    <input class="page-footer-subscribe-input" id="subscribe-email" type="email" name="subscribe-email"
+                        placeholder="E-mail" required>
+                    <button class="page-footer-subscribe-btn" type="submit">
+                        <span class="page-footer-subscribe-btn-name">Подписаться</span>
+                        <svg class="page-footer-subscribe-btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+    
         </div>
     </footer>
 </body>
